@@ -1,0 +1,52 @@
+@font-face{
+    src:url(1.ttf);
+    font-family:myfont;
+}
+body{
+    background: rgb(33, 33, 33);
+    color:white;
+    font-family: myfont;
+    
+}
+#staggered-test li{
+    opacity: 0;
+}
+p{
+    margin:0;
+    padding: 0;
+}
+.block{
+    background: rgba(117, 117, 117, 0.54);
+    position: relative
+}
+.title{
+    position:absolute;
+    top:25%;
+    left:40%;
+}
+.title2{
+    position:absolute;
+    top:44%;
+    left:33%;
+}
+.drop{
+    position: absolute;
+    top:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.50);
+    width:150px;
+    height:100%;
+}
+.btn{
+    background: rgb(128, 128, 128);
+    width:30px;
+    height:50px;
+}
+.screen{
+    background-image: url(img/screenRPG.png);
+    background-size: 100% 100%;
+}
+.class{
+    width:1000px;
+    margin:0 auto;
+}
